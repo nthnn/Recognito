@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QFileDialog, QMessageBox
-from PyQt5.QtGui import QPixmap, QImage
+from PyQt5.QtGui import QPixmap, QImage, QIcon
 from PyQt5.QtCore import Qt, QCoreApplication
 
 from object_identifier import ObjectIdentifier
@@ -10,6 +10,7 @@ class MainWindow(QMainWindow):
 
         self.setWindowTitle("Recognito")
         self.setMinimumSize(500, 400)
+        self.setWindowIcon(QIcon("assets/recognito.ico"))
 
         self.label_file = QLabel("Enter a file:", self)
         self.label_file.move(10, 10)
