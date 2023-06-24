@@ -39,7 +39,7 @@ Recognito is a Python program that utilizes the power of PyQT5 and TensorFlow to
 
 Sorta-welcoming-UI of Recognito when opened:
 <p align="center">
-    <img src="assets/screenshot-1.png" width="0px" />
+    <img src="assets/screenshot-1.png" width="300px" />
 </p>
 
 Recognito on image identification:
