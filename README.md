@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="assets/recognito.png" width="120" />
+    <img src="assets/recognito.png" width="120" />
 </p>
 
 # Recognito: Image Object Recognition
@@ -19,9 +19,9 @@ Recognito is a Python program that utilizes the power of PyQT5 and TensorFlow to
 ## Installation
 
 1. Clone the Recognito repository.
-```batch
-git clone 
-```
+    ```batch
+    git clone https://github.com/nthnn/Recognito.git
+    ```
 2. Install Python 3 from [python.org](https://www.python.org/downloads/).
 3. Run the [module_installer.bat](scripts/module_installer.bat).
 4. You can now either run the [main](__main__.pyw) script of the Recognito or build with [pyinstaller](C:\Users\natha\Desktop\Recognito) by running [build_installer.bat](scripts/build_installer.bat).
@@ -34,6 +34,18 @@ git clone
 3.  Once the image is loaded, click on the "Identify" button to initiate the recognition process.
 4.  After a brief moment, Recognito will display the identified objects.
 5.  You can repeat the process by clicking on the "Browse" button again and selecting a new image file.
+
+## Screenshots
+
+Sorta-welcoming-UI of Recognito when opened:
+<p align="center">
+    <img src="assets/screenshot-1.png" width="0px" />
+</p>
+
+Recognito on image identification:
+<p align="center">
+    <img src="assets/screenshot-2.png" width="300px" />
+</p>
 
 ## License
 
